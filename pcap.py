@@ -66,9 +66,7 @@ for pkt in packets:
 		
 	except (Exception) as e:
 		pass
-        # no packet found with port 21 
-        # comment out this line and replace with 'pass' if too much data
-		#print ("BAD: ", e)
+
 print ("")
 print (">>> The number of port 21 packets is ", count)
 
